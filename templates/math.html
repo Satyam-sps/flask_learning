@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Operations</title>
+</head>
+
+<body>
+    <h3>Here's the List of Operations Available </h3>
+    <ol>
+        <li>Addition</li>
+        <li>Subtraction</li>
+        <li>Division</li>
+        <li>Multiplication</li>
+    </ol>
+
+    <div class="container">
+        <form action="/ops" method="post">
+            <select name="Operations" id="operations">
+                <option value="add">Addition</option>
+                <option value="sub">Subtraction</option>
+                <option value="mul">Multiplication</option>
+                <option value="div">Division</option>
+            </select>
+            <input type="text" name="Num1" id="num1">
+            <input type="text" name="Num2" id="num2">
+            <input type="submit" value="Calculate">
+        </form>
+    </div>
+</body>
+
+</html>
